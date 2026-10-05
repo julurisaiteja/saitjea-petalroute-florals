@@ -1,0 +1,26 @@
+enter;gap:1.2rem}
+@media(min-width:900px){.pr-nav{display:flex}.pr-mobile{display:none}}
+.pr-nav-link{font-size:.9rem;color:rgba(255,255,255,.7)}
+.pr-nav-link:hover{color:#fff}
+.pr-cart{padding:.55rem 1.15rem;min-height:40px}
+.pr-mobile{display:flex;align-items:center;gap:.5rem}
+.pr-burger{width:2.6rem;height:2.6rem;border-radius:999px;border:1px solid color-mix(in srgb,#fff 28%,transparent);background:color-mix(in srgb,#fff 8%,transparent);display:grid;place-content:center;gap:4px;cursor:pointer}
+.pr-burger span{display:block;width:1.05rem;height:1.5px;background:#fff}
+.pr-drawer{padding:1.25rem;border-top:1px solid color-mix(in srgb,#fff 14%,transparent);background:color-mix(in srgb,#0f0a16 85%,transparent);backdrop-filter:blur(18px)}
+.pr-drawer[hidden]{display:none}
+.pr-drawer nav{display:grid;gap:.9rem}
+.pr-drawer a{font-family:var(--font-display);font-size:1.8rem;letter-spacing:.06em}
+.pr-footer{margin-top:3rem;padding:2.5rem 1.25rem 6rem;border-top:1px solid color-mix(in srgb,#fff 14%,transparent)}
+.pr-footer-grid{max-width:72rem;margin:0 auto;display:grid;gap:2rem}
+@media(min-width:800px){.pr-footer-grid{grid-template-columns:1.4fr 1fr 1fr 1.2fr}}
+.pr-footer-brand{font-size:2.8rem;margin:0;letter-spacing:.1em;text-transform:lowercase;font-weight:300}
+.pr-footer-h{font-weight:600;margin:0 0 .6rem;color:var(--accent)}
+.pr-footer ul{list-style:none;padding:0;margin:0;display:grid;gap:.4rem;color:rgba(255,255,255,.65);font-size:.95rem}
+.pr-mail{display:flex;gap:.5rem}
+.pr-mail input{flex:1;border-radius:999px;border:1px solid color-mix(in srgb,#fff 22%,transparent);background:color-mix(in srgb,#fff 8%,transparent);padding:.65rem 1rem;color:#fff;font:inherit}
+.pr-legal{max-width:72rem;margin:2rem auto 0;font-size:.75rem;color:rgba(255,255,255,.45)}
+
+/* shop mosaic */
+.pr-shop{padding-bottom:5rem}
+.pr-shop-hero{padding:2.75rem 1.25rem 1.5rem;text-align:center;position:relative;overflow:hidden}
+.pr-shop-hero::before{content:"";position:absolute;inset:-30%;background
