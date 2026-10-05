@@ -1,0 +1,14 @@
+03a 70%,#1a2030 100%);background-attachment:fixed;color:var(--text)}
+.btn-brand{background:linear-gradient(120deg,var(--brand),var(--accent));color:#fff;border-radius:999px;box-shadow:0 10px 40px color-mix(in srgb,var(--brand) 40%,transparent);transition:transform .3s,box-shadow .3s}
+.btn-brand:hover{transform:translateY(-2px);box-shadow:0 16px 50px color-mix(in srgb,var(--accent) 45%,transparent)}
+.btn-ghost{background:color-mix(in srgb,#fff 10%,transparent);border:1px solid color-mix(in srgb,#fff 28%,transparent);border-radius:999px;backdrop-filter:blur(12px);color:#fff}
+.offer-banner{background:transparent;color:#fff;border-bottom:1px solid color-mix(in srgb,#fff 18%,transparent);backdrop-filter:blur(10px)}
+.chip{background:color-mix(in srgb,#fff 12%,transparent);border:1px solid color-mix(in srgb,#fff 25%,transparent);border-radius:999px;color:#fff;backdrop-filter:blur(8px)}
+.ai-fab{background:linear-gradient(135deg,var(--brand),var(--accent));color:#fff;border-radius:50%;box-shadow:0 0 40px color-mix(in srgb,var(--accent) 50%,transparent);animation:glow 4s ease-in-out infinite}
+@keyframes glow{0%,100%{box-shadow:0 0 24px color-mix(in srgb,var(--brand) 45%,transparent)}50%{box-shadow:0 0 48px color-mix(in srgb,var(--accent) 55%,transparent)}}
+.ai-panel{background:color-mix(in srgb,#1a1020 75%,transparent);border:1px solid color-mix(in srgb,#fff 20%,transparent);border-radius:24px;backdrop-filter:blur(20px);color:#fff}
+.sticky-cta{background:color-mix(in srgb,#1a1020 70%,transparent);border:1px solid color-mix(in srgb,#fff 20%,transparent);border-radius:999px;backdrop-filter:blur(16px)}
+.card-soft{background:color-mix(in srgb,#fff 8%,transparent);border:1px solid color-mix(in srgb,#fff 16%,transparent);border-radius:24px;backdrop-filter:blur(14px)}
+.aurora-hero{position:relative;min-height:100svh;display:flex;align-items:center;justify-content:center;overflow:hidden;text-align:center}
+.aurora-blobs{position:absolute;inset:-20%;background:
+  radial-gradient(circle
